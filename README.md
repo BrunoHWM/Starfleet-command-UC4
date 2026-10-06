@@ -28,24 +28,3 @@ O sistema foi projetado utilizando conceitos como:
 A ideia principal é permitir que diferentes tipos de naves compartilhem comportamentos comuns, enquanto cada classe especializada possui suas próprias funcionalidades.
 
 ---
-
-## 🛸 Tipos de naves
-
-O projeto trabalha com diferentes classes de naves, representando funções específicas dentro da frota.
-
-### ⚔️ Fighter
-
-Nave especializada em combate.
-
-Possui capacidade de:
-
-- Realizar ataques;
-- Calcular dano;
-- Aplicar dano ao alvo;
-- Utilizar poder de armamento;
-- Verificar se a nave está operacional antes de atacar.
-
-Implementa a interface:
-
-```ts
-CombatCapable
